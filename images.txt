@@ -1,3 +1,5 @@
 nginx
 redis
 mysql
+openjdk:21-ea-17-slim-buster
+

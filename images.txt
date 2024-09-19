@@ -1,7 +1,5 @@
+# 不加版本号默认最新版本镜像
+alpine:3.10
 nginx
 redis
 mysql
-openjdk:8-jre
-openjdk:11-jre
-openjdk:17-jre
-openjdk:21-jre

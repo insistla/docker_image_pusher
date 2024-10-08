@@ -3,6 +3,6 @@ alpine:3.10
 nginx
 redis
 mysql
-elasticsearch:7.10
-logstash:7.10
-kibana:7.10
+elasticsearch
+logstash
+kibana

@@ -30,16 +30,20 @@
 #doctorkirk/oracle-19c:19.9
 
 # 注意：ELK或部分镜像需要注意是否有镜像前缀！
-docker.elastic.co/elasticsearch/elasticsearch:7.16.2
-docker.elastic.co/logstash/logstash:7.16.2
-docker.elastic.co/kibana/kibana:7.16.2
+#docker.elastic.co/elasticsearch/elasticsearch:6.8.22
+#docker.elastic.co/logstash/logstash:6.8.22
+#docker.elastic.co/kibana/kibana:6.8.22
 
-docker.elastic.co/elasticsearch/elasticsearch:8.15.4
-docker.elastic.co/logstash/logstash:8.15.4
-docker.elastic.co/kibana/kibana:8.15.4
+#docker.elastic.co/elasticsearch/elasticsearch:7.10.0
+#docker.elastic.co/logstash/logstash:7.10.0
+#docker.elastic.co/kibana/kibana:7.10.0
 
-docker.elastic.co/elasticsearch/elasticsearch:6.8.22
-docker.elastic.co/logstash/logstash:6.8.22
-docker.elastic.co/kibana/kibana:6.8.22
+#docker.elastic.co/elasticsearch/elasticsearch:7.16.2
+#docker.elastic.co/logstash/logstash:7.16.2
+#docker.elastic.co/kibana/kibana:7.16.2
+
+#docker.elastic.co/elasticsearch/elasticsearch:8.15.4
+#docker.elastic.co/logstash/logstash:8.15.4
+#docker.elastic.co/kibana/kibana:8.15.4
 
 

@@ -7,10 +7,22 @@
 
 # 添加开源镜像是建议指定版本号！不加版本号默认最新版本镜像(默认latest)
 #alpine:3.10
-#nginx
-#redis
-#mysql:5.7
-#postgres:16.9
+nginx:1.28.0
+nginx:1.29.0
+redis:6.2.18
+redis:7.4.4
+redis:8.0.2
+mysql:5.7.44
+mysql:8.0.40
+mysql:9.0.1
+postgres:17.5
+postgres:16.9
+postgres:15.13
+postgres:14.18
+postgres:13.21
+yycx/oracle11:11.2.0.4
+wangpengcheng/oracle12c-enterprise:12.2.0.1
+doctorkirk/oracle-19c:19.9
 
 # 注意：ELK或部分镜像需要注意是否有镜像前缀！
 #docker.elastic.co/elasticsearch/elasticsearch:7.10.0

@@ -8,8 +8,8 @@
 # 添加开源镜像建议指定版本号！不加版本号默认最新版本镜像(默认latest)！推荐使用最稳定的版本镜像(供生产环境使用)
 #sonatype/nexus3:3.80.0
 #alpine:3.10
-ansible/awx:17.1.0
-ansible/awx:14.1.0
+#ansible/awx:17.1.0
+#ansible/awx:14.1.0
 
 
 #nginx:1.28.0
@@ -23,6 +23,7 @@ ansible/awx:14.1.0
 #mysql:8.0.40
 #mysql:9.0.1
 
+postgres:10
 #postgres:13.21
 #postgres:14.18
 #postgres:15.13

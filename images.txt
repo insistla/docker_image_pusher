@@ -11,9 +11,10 @@
 #ansible/awx:17.1.0
 #ansible/awx:14.1.0
 
-
 #nginx:1.28.0
 #nginx:1.29.0
+
+tomcat:9.0-jdk8-corretto
 
 #redis:6.2.18
 #redis:7.4.4

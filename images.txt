@@ -14,7 +14,11 @@
 #nginx:1.28.0
 #nginx:1.29.0
 
-tomcat:9.0-jdk8-corretto
+#tomcat:9.0-jdk8-corretto
+
+#注意：nacos-Server 2.3.x 需开放额外端口（如 9848、9849）以支持 gRPC 通信
+#nacos/nacos-server:v2.2.2
+nacos/nacos-server:v2.3.0
 
 #redis:6.2.18
 #redis:7.4.4

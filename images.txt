@@ -19,7 +19,7 @@
 #备选生产环境，安全轻量镜像（企业合规场景），Ubuntu Chiseled JRE（无 shell、glibc、官方长期维护 12 年），金融国企推荐：
 #ubuntu/jre:8-22.04_edge
 #ubuntu/jre:17_edge
-ubuntu/jre:21_edge
+ubuntu/jre:21-24.04_edge
 #测试/预发环境JRE镜像（可进容器调试，带 ash 终端，可exec进容器直接执行jstack，体积适中）
 #eclipse-temurin:8-jre-alpine
 #eclipse-temurin:17-jre-alpine

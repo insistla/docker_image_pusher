@@ -20,10 +20,10 @@
 #ubuntu/jre:8-22.04_edge
 #ubuntu/jre:17_edge
 #ubuntu/jre:21-24.04_edge
-ubuntu/jre:8-22.04
-ubuntu/jre:11-24.04
-ubuntu/jre:17-24.04
-ubuntu/jre:21-24.04
+ubuntu/jre:8-22.04_stable
+ubuntu/jre:11-24.04_stable
+ubuntu/jre:17-24.04_stable
+ubuntu/jre:21-24.04_stable
 
 #测试/预发环境JRE镜像（可进容器调试，带 ash 终端，可exec进容器直接执行jstack，体积适中）
 #eclipse-temurin:8-jre-alpine

@@ -12,15 +12,16 @@
 #ansible/awx:14.1.0
 
 
-#K8S环境、生产环境JRE镜像(安全优先、体积最小，无shell、无包管理器、无系统命令，攻击面极小；K8s通过kubectl debug临时容器实现外部jstack/jmap排查，完美解决不能进容器调试的痛点！)
-#gcr.io/distroless/java:8
-#gcr.io/distroless/java17
-#gcr.io/distroless/java21
-#备选生产环境，安全轻量镜像（企业合规场景），Ubuntu Chiseled JRE（无 shell、glibc、官方长期维护 12 年），金融国企推荐：stable(稳定版) > _edge(前沿版)
+#K8S环境、生产环境JRE镜像（企业合规场景），Ubuntu Chiseled JRE（无 shell、glibc、官方长期维护 12 年），金融国企推荐：stable(稳定版) > _edge(前沿版)
+#K8s通过kubectl debug临时容器实现外部jstack/jmap排查，完美解决不能进容器调试的痛点！
 #ubuntu/jre:8-22.04_edge
 #ubuntu/jre:11-24.04
 #ubuntu/jre:17-24.04
 #ubuntu/jre:21-24.04
+#备选生产环境，安全轻量镜像(无shell、无包管理器、无系统命令，攻击面极小)
+#gcr.io/distroless/java:8
+#gcr.io/distroless/java17
+#gcr.io/distroless/java21
 #测试/预发环境JRE镜像（可进容器调试，带 ash 终端，可exec进容器直接执行jstack，体积适中）
 #eclipse-temurin:8-jre-alpine
 #eclipse-temurin:17-jre-alpine
@@ -35,6 +36,9 @@
 #注意：nacos-Server 2.3.x 需开放额外端口（如 9848、9849）以支持 gRPC 通信
 #nacos/nacos-server:v2.2.2
 #nacos/nacos-server:v2.3.0
+nacos/nacos-server:v2.5.3-slim
+nacos/nacos-server:v2.5.3
+
 
 #redis:6.2.18
 #redis:7.2.10

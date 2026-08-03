@@ -17,9 +17,9 @@
 #gcr.io/distroless/java17
 #gcr.io/distroless/java21
 #备选生产环境，安全轻量镜像（企业合规场景），Ubuntu Chiseled JRE（无 shell、glibc、官方长期维护 12 年），金融国企推荐：
-ubuntu/jre:8-24.04
-ubuntu/jre:17-24.04
-ubuntu/jre:21-24.04
+ubuntu/openjdk:8-jre-chiseled
+ubuntu/openjdk:17-jre-chiseled
+ubuntu/openjdk:21-jre-chiseled
 #测试/预发环境JRE镜像（可进容器调试，带 ash 终端，可exec进容器直接执行jstack，体积适中）
 #eclipse-temurin:8-jre-alpine
 #eclipse-temurin:17-jre-alpine

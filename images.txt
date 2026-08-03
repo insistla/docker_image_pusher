@@ -36,8 +36,8 @@
 #注意：nacos-Server 2.3.x 需开放额外端口（如 9848、9849）以支持 gRPC 通信
 #nacos/nacos-server:v2.2.2
 #nacos/nacos-server:v2.3.0
-nacos/nacos-server:v2.5.3-slim
-nacos/nacos-server:v2.5.3
+#nacos/nacos-server:v2.5.3
+nacos/nacos-peer-finder-plugin:1.1
 
 
 #redis:6.2.18

@@ -17,7 +17,8 @@
 #gcr.io/distroless/java17
 #gcr.io/distroless/java21
 #备选生产环境，安全轻量镜像（企业合规场景），Ubuntu Chiseled JRE（无 shell、glibc、官方长期维护 12 年），金融国企推荐：stable(稳定版) > _edge(前沿版)
-ubuntu/jre:8-22.04
+ubuntu/jre:8-22.04_edge
+ubuntu/jre:8_edge
 #ubuntu/jre:11-24.04
 #ubuntu/jre:17-24.04
 #ubuntu/jre:21-24.04

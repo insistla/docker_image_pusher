@@ -37,15 +37,13 @@
 #nacos/nacos-server:v2.2.2
 #nacos/nacos-server:v2.3.0
 #nacos/nacos-server:v2.5.3
-nacos/nacos-peer-finder-plugin:1.1
-
+#nacos/nacos-peer-finder-plugin:1.1
 
 #redis:6.2.18
 #redis:7.2.10
 #redis:7.4.4
 #redis:8.0.2
 #redis:8.2
-
 
 #mysql:5.7.44
 #mysql:8.0.40

@@ -31,7 +31,6 @@
 
 #nginx:1.28.0
 #nginx:1.29.0
-dyrnq/kube-webhook-certgen:v20220916-gd32f8c343
 
 #tomcat:9.0-jdk8-corretto
 

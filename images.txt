@@ -13,6 +13,9 @@
 #ansible/awx:17.1.0
 #ansible/awx:14.1.0
 
+#GibLab，极狐中文版
+jihulab/jihulab-ce:16.11.10-jh1
+
 #K8S环境、生产环境JRE镜像（企业合规场景），Ubuntu Chiseled JRE（无 shell、glibc、官方长期维护 12 年），金融国企推荐：stable(稳定版) > _edge(前沿版)
 #K8s通过kubectl debug临时容器实现外部jstack/jmap排查，完美解决不能进容器调试的痛点！
 #ubuntu/jre:8-22.04_edge

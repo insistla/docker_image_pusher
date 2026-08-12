@@ -16,7 +16,7 @@
 #GibLab ,暂定16.11.10-ce的稳定版本
 #gitlab/gitlab-ce:16.11.10-ce.0
 #执行CI任务
-#gitlab/gitlab-runner:16.11.10
+gitlab/gitlab-runner:16.11.0
 #bitnami/kubectl（流水线内执行 k8s 命令镜像），CI Job 内部直接执行kubectl apply，不需要在runner宿主机安装kubectl。
 #bitnami/kubectl:1.30
 #以Git作为唯一真相源，自动同步 K8s 资源，和 GitLab 流水线完美配合。一般部署在 K8s 集群，不建议单机 docker run。
@@ -25,15 +25,18 @@
 #sonarqube:9.9‑community
 
 
-
 #K8S环境、生产环境JRE镜像（企业合规场景），Ubuntu Chiseled JRE（无 shell、glibc、官方长期维护 12 年），金融国企推荐：stable(稳定版) > _edge(前沿版)
 #K8s通过kubectl debug临时容器实现外部jstack/jmap排查，完美解决不能进容器调试的痛点！
+#ubuntu:22.04
 #ubuntu/jre:8-22.04_edge
+#ubuntu:24.04
 #ubuntu/jre:11-24.04
 #ubuntu/jre:17-24.04
 #ubuntu/jre:21-24.04
-#备选生产环境，安全轻量镜像(无shell、无包管理器、无系统命令，攻击面极小)
+#备选生产环境distroless，安全轻量镜像(无shell、无包管理器、无系统命令，攻击面极小)
+#debian:11
 #gcr.io/distroless/java:8
+#debian:12
 #gcr.io/distroless/java17
 #gcr.io/distroless/java21
 #测试/预发环境JRE镜像（可进容器调试，带 ash 终端，可exec进容器直接执行jstack，体积适中）

@@ -19,7 +19,7 @@
 #registry.gitlab.com/gitlab-org/gitlab-runner:v16.11.0
 maven:3.8-openjdk-8-slim
 maven:3.8-openjdk-17-slim
-maven:3.8-openjdk-21-slim
+maven:3.9.11-eclipse-temurin-21-alpine
 #bitnami/kubectl（流水线内执行 k8s 命令镜像），CI Job 内部直接执行kubectl apply，不需要在runner宿主机安装kubectl。
 #bitnami/kubectl:1.30
 #以Git作为唯一真相源，自动同步 K8s 资源，和 GitLab 流水线完美配合。一般部署在 K8s 集群，不建议单机 docker run。
